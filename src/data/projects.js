@@ -1,47 +1,34 @@
-// TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'LangTime Studio',
+    subtitle: 'University of Washington',
+    // link: 'https://docs.google.com/presentation/d/1-v0atinSYRP5JW8SdEDKHKG3IXA3mGrnejnmQyqcrao/edit',
+    image: '/images/projects/langtime.jpg',
+    date: 'Jan 2023 - present',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Developed an application to facilitate language creators in the creation and management of customized dictionaries for their new languages. '
+      + 'Implemented features to create, edit, and view dictionaries, as well as generate PDF outputs and view language statistics. ',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'IKEA Search and Recommendation',
+    subtitle: 'University of Washington',
+    link: 'https://docs.google.com/presentation/d/1-v0atinSYRP5JW8SdEDKHKG3IXA3mGrnejnmQyqcrao/edit',
+    image: '/images/projects/ikea.jpg',
+    date: 'May 2022 - Jun 2022',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Developed a web crawling system for IKEA pages and ranked them using TF-IDF scores for a search engine and '
+      + 'implemented a recommendation system algorithm based on Jaccard similarity. ',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'NBA Data Analysis',
+    subtitle: 'Self',
+    // link: 'https://devpost.com/software/harvest',
+    image: '/images/projects/nba.jpeg',
+    date: 'Oct 2021 - Nov 2021',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Performed data analysis on oﬃcial NBA data from the past 16 years to '
+      + 'evaluate conference standings, compare conferences, calculate point margins, plan schedules, and '
+      + 'predict team playoff outcomes using logistic regression modeling with R and RMarkdown.',
   },
 ];
 

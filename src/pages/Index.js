@@ -5,16 +5,18 @@ import Main from '../layouts/Main';
 
 const Index = () => (
   <Main
-    description={"Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
-    + 'co-founder and CTO of Arthena, and YC Alumni.'}
+    description={"Ut Gong's personal website. Year 3 student majoring in Informatics and minoring in computational finance in University of Washington."}
   >
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/">About this site</Link></h2>
-          <p>
-            A beautiful, responsive, statically-generated,
-            react application written with modern Javascript.
+          <h2 data-testid="heading"><Link to="/">Hi, I&apos;m Jo Jo.</Link></h2>
+          <p style={{ fontSize: '16px', fontFamily: 'Noto Sans' }}>
+            I am an UW iSchool undergraduate student. <br />
+            My research interest includes <b>Data Mining,</b> <b>SportsXR, </b>
+            <b>Data Visualization, </b> <b>AI, </b> and <b>genomics.</b> <br />
+            I am currently looking for research opportunities starting from Summer 2023
+            and PhD position in Fall 2024.
           </p>
         </div>
       </header>
@@ -22,10 +24,9 @@ const Index = () => (
         or you can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
+        <Link to="/publications">publications</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-      <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
     </article>
   </Main>
 );
